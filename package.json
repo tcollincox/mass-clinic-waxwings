@@ -1,0 +1,26 @@
+{
+  "name": "sp-mass-clinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcollincox/mass-clinic-waxwings.git"
+  },
+  "author": "waxwings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcollincox/mass-clinic-waxwings/issues"
+  },
+  "homepage": "https://github.com/tcollincox/mass-clinic-waxwings#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.2.2",
+    "nodemon": "^2.0.13"
+  }
+}
