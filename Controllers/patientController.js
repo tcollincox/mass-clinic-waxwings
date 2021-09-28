@@ -8,3 +8,4 @@ exports.patientsPage = (req,res) => {
     res.render('patients.ejs', {patients: patients});
 }
 
+//hi armon
