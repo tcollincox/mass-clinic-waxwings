@@ -7,7 +7,6 @@ const patients = require("./Routes/patient.routes.js")
 const options = require("./Routes/option.routes.js");
 const bodyParser =  require("body-parser");
 const ejs = require("ejs");
-const options = require("./Routes/option.routes.js");
 
 
 const app = express();
