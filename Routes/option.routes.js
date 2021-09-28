@@ -1,8 +1,8 @@
 const express =  require("express");
 const router = express.Router();
-const referralCtrl = require("../Controllers/optionsController");
+const optionsCtrl = require("../Controllers/optionsController");
 
-router.get("/", optionCtrl.optionPage);
+router.get("/", optionsCtrl.optionPage);
 
 module.exports = router;
 
