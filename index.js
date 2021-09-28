@@ -6,6 +6,7 @@ const referrals = require("./Routes/referral.routes.js");
 const patients = require("./Routes/patient.routes.js")
 const bodyParser =  require("body-parser");
 const ejs = require("ejs");
+const options = require("./Routes/option.routes.js");
 
 
 const app = express();
@@ -30,3 +31,4 @@ app.listen(port, () => {
 app.use("/home", home);
 app.use("/referrals", referrals);
 app.use("/patients", patients);
+app.use("/options", options);
