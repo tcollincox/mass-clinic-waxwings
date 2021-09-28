@@ -1,7 +1,7 @@
 const express =  require("express");
 const router = express.Router();
-const patientCTRL = require("../controllers/indexController.js");
+const patientCTRL = require("../Controllers/patientController.js");
 
-router.get('/', patientCTRL.homepage);
+router.get("/", patientCTRL.patientsPage);
 
 module.exports =  router;

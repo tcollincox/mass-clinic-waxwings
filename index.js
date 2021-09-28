@@ -3,7 +3,7 @@ require('dotenv').config();
 const express = require("express");
 const home = require("./Routes/index.routes.js");
 const referrals = require("./Routes/referral.routes.js");
-const patients = require("./Routes/patient.routes")
+const patients = require("./Routes/patient.routes.js")
 const bodyParser =  require("body-parser");
 const ejs = require("ejs");
 

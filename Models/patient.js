@@ -18,5 +18,4 @@ const patient = {
     },
 }
 
-
-exports = patient;
+exports.getPatients = () => {return patient} ; 
