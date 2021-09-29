@@ -5,6 +5,7 @@ const home = require("./Routes/index.routes.js");
 const referrals = require("./Routes/referral.routes.js");
 const patients = require("./Routes/patient.routes.js")
 const options = require("./Routes/option.routes.js");
+const medVolunteers = require("./Routes/med_volunteer.routes.js");
 const bodyParser =  require("body-parser");
 const ejs = require("ejs");
 
@@ -32,3 +33,4 @@ app.use("/home", home);
 app.use("/referrals", referrals);
 app.use("/patients", patients);
 app.use("/options", options);
+app.use("/medVolunters",options);
