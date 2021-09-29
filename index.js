@@ -33,4 +33,4 @@ app.use("/home", home);
 app.use("/referrals", referrals);
 app.use("/patients", patients);
 app.use("/options", options);
-app.use("/medVolunters",options);
+app.use("/medVolunteers",medVolunteers);
