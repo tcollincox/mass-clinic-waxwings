@@ -22,5 +22,3 @@ const options = [
 
 exports.getOptions = () => {return options} ;
 
-//test comment
-//test comment 2

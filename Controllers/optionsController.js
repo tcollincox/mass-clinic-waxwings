@@ -5,5 +5,3 @@ exports.optionPage = (req, res) => {
 
     res.render('options.ejs', {options: options});
 } 
-//test comment
-//test comment 2
