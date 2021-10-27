@@ -8,5 +8,8 @@
     <body>
         <h1>Patients Dashboard</h1>
         <p><a href="/"><button>Home</button></a></p>
+        <% patients.forEach(function(o) { %>
+            <li><span>Name:  <%= o.name %>,  Is Sick:  <%= o.sick %></span></li>
+        <% }); %>
     </body>
 </html>

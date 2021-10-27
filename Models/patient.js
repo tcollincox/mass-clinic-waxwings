@@ -1,21 +1,8 @@
-const patient = {
-    userId: {
-        type: "string",
-        required: true,
-    },
-    name: {
-        fName: "string",
-        lName: "string",
-        required: true,
-    },
-    dob: {
-        type: "string",
-        required: true,
-    },
-    reffered: {
-        type: Boolean,
-        required: true,
-    },
-}
+const patient = [
+{name: "Person 1", sick: true},
+{name: "Person 1", sick: false},
+{name: "Person 1", sick: false}
+]
+
 
 exports.getPatients = () => {return patient} ; 
