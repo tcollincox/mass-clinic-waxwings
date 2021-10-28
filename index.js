@@ -38,3 +38,4 @@ app.use("/options", options);
 app.use("/medVolunteers",medVolunteers);
 app.use("/insurance", insurance);
 app.use("/followups", followups);
+app.use("/volunteers",medVolunteers);
